@@ -20,6 +20,7 @@ def create_user(
         last_name=last_name or ""
     )
 
+
 def get_user(user_id: int) -> Any:
     return User.objects.get(id=user_id)
 
